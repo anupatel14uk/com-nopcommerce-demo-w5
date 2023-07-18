@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="1" >
+    <listeners>
+        <listener class-name="com.nopcommerce.demo.customlisteners.CustomListeners"/>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+    <test name="ElectronicsTest" >
+        <classes>
+            <class name="com.nopcommerce.demo.testsuites.ElectronicsTest"/>
+        </classes>
+    </test>
+    <test name="TestSuite" >
+        <classes>
+            <class name="com.nopcommerce.demo.testsuites.TestSuite"/>
+        </classes>
+    </test>
+    <test name="TopMenuTest" >
+        <classes>
+            <class name="com.nopcommerce.demo.testsuites.TopMenuTest"/>
+        </classes>
+    </test>
+</suite>

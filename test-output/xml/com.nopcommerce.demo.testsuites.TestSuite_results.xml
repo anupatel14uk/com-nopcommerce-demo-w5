@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="66.386">
+  <properties />
+  
+  
+            <testcase name="verifyProductAddedToShoppingCartSuccessFully" time="56.291" classname="com.nopcommerce.demo.testsuites.TestSuite" />
+                <testcase name="verifyProductArrangeInAlphaBaticalOrder" time="10.095" classname="com.nopcommerce.demo.testsuites.TestSuite" />
+      
+</testsuite>
